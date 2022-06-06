@@ -1,0 +1,120 @@
+#navbar>#side {
+    display: flex;
+    justify-content: end;
+
+    padding: 10px;
+    gap: 30px;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #131a28;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#logo {
+    height: 40px;
+    width: 115px;
+    margin: auto;
+    background-image: url("https://secure-media.hotstarext.com/web-assets/prod/images/brand-logos/disney-hotstar-logo-dark.svg");
+}
+
+#navbar a:hover {
+    color: black;
+}
+
+#navbar a {
+    cursor: pointer;
+}
+
+#hotstar {
+    background-color: #131a28;
+    height: 100%;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: aliceblue;
+}
+
+#main {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    background-color: rgb(1, 43, 43);
+    border-radius: 10px;
+    margin-top: 2%;
+}
+
+#moive_list {
+    overflow: scroll;
+
+
+}
+
+#moive_name {
+    width: 50%;
+    height: 600px;
+
+
+
+}
+
+#inputBox {
+    width: 40%;
+    height: 100%;
+    margin-top: 20px;
+
+
+}
+
+
+#moiveDiv {
+    text-align: center;
+
+}
+
+img {
+    height: 450px;
+    width: 65%;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+
+#query {
+    width: 96%;
+    height: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#image {
+    height: 250px;
+    width: 200px;
+}
+
+#trend {
+
+    height: 400px;
+    display: flex;
+    overflow: scroll;
+    overflow-y: hidden;
+    margin: auto;
+    background-color: rgb(1, 43, 43);
+    border-radius: 10px;
+}
+
+#trendBox {
+
+    margin: 1%;
+    height: 300px;
+
+}
